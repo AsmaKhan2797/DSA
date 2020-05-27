@@ -28,7 +28,7 @@ class A  extends Thread {
 		for (int i = 0; i < 10; i++) {
 			System.out.println("Inside A..."+i);
 				try {if(i==5)
-					sleep(2000);
+					sleep(20000);
 				} catch (InterruptedException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
